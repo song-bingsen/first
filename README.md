@@ -81,8 +81,8 @@ git branch   查看本地分支
 #常见的异常情况分析：
 
 1、当无法推送本地修改时，有可能是因为github的远程仓库上已经有所改动，而且本地仓库并未与其同步
-解决方案：需要拉取远程仓库的最新更改，执行命令：git pull origin main 
-直接按 Esc 键，退出编辑模式
-输入 :wq (注意，冒号也要输入)(意思是 write and quit，保存并退出)。
-按 Enter 键
+解决方案：需要拉取远程仓库的最新更改，执行命令：git pull origin main   ;
+直接按 Esc 键，退出编辑模式;
+输入 :wq (注意，冒号也要输入)(意思是 write and quit，保存并退出);
+按 Enter 键;
 完成之后，就可以执行命令 git push origin main了
