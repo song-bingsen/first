@@ -1,4 +1,4 @@
-# first
+<img width="2321" height="1195" alt="image" src="https://github.com/user-attachments/assets/d314e08f-cf81-4383-aaa2-1333d58e5c57" /># first
 初学如何使用github
 
 #
@@ -65,6 +65,10 @@ git clone 【URL】   把远程仓库克隆到本地
 git status   查看工作区和暂存区的状态
 
 git add 【文件名.文件类型】   把目标文件添加到暂存区
+
+git restore --staged   如果不想提交这个文件了，可以使用此命令把它从暂存区移出去（回到工作区）。
+
+git restore 【文件名.文件类型】  这条命令会把 已删除的目标文件 从本地仓库中恢复到你的工作区。注意：如果你已经 git add 了一个删除操作，需要先用 git restore --staged hello.txt 从暂存区移除删除操作，然后再用 git restore 从本地仓库恢复文件。
 
 git commit -m【备注】   将暂存区的更改提交到本地仓库
 
