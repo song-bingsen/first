@@ -1,4 +1,3 @@
-<img width="2321" height="1195" alt="image" src="https://github.com/user-attachments/assets/d314e08f-cf81-4383-aaa2-1333d58e5c57" /># first
 初学如何使用github
 
 #
